@@ -1,0 +1,76 @@
+# Environment & secrets
+.env
+.env.local
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Testing & tooling
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & runtime artifacts
+logs/
+*.log
+
+# Data (use `python main.py sample-data` or upload via API)
+data/raw/*.csv
+data/cache/
+data/processed/*.parquet
+data/processed/*.csv
+
+# Legacy notebook bundle — large Olist CSVs (download separately if needed)
+ai-demand-forecasting/data/*.csv
+
+# Trained models & generated outputs
+saved_models/
+outputs/
+
+# Model binaries
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.onnx
