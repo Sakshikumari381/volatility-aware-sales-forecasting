@@ -1,4 +1,9 @@
 # Volatility-Aware Sales Forecasting System
+---
+
+## Prompt
+I'm a data scientist building a volatility-aware sales forecasting system for e-commerce and retail platforms. This document defines exactly what to build, how it should behave, and what I expect at the end. Read it fully before writing a single line of code.
+
 
 ---
 
