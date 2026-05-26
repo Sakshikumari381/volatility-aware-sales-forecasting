@@ -409,23 +409,8 @@ Interactive docs: **http://127.0.0.1:8000/docs**
 | `data/cache/` | Cached Parquet for faster reloads |
 | `logs/forecasting.log` | Application logs |
 
-Generated paths are **gitignored** — reproduce with `sample-data` + `train` or the UI pipeline.
+Generated paths are **gitignored** — reproduce with `sample-data` + `train` or the UI pipe
 
----
-
-## Screenshots
-
-| Forecast trend | Actual vs predicted |
-|----------------|---------------------|
-| ![Forecast trend](docs/screenshots/forecast_trend.png) | ![Actual vs predicted](docs/screenshots/actual_vs_pred_0.png) |
-
-| SHAP summary | Top features |
-|--------------|--------------|
-| ![SHAP](docs/screenshots/xgboost_summary.png) | ![Top features](docs/screenshots/top_features.png) |
-
-| Residuals | Rolling volatility |
-|-----------|-------------------|
-| ![Residuals](docs/screenshots/residuals_0.png) | ![Volatility](docs/screenshots/rolling_volatility.png) |
 
 ---
 
